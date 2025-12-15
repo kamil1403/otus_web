@@ -30,7 +30,7 @@
 Файл `Vagrantfile`.
 * Использует образ **Ubuntu 22.04**.
 * Пробрасывает порты 8081-8083 на localhost.
-* Запускает провижнер `ansible_local` (устанавливает Ansible внутри VM и выполняет плейбук).
+* Запускает `ansible_local` (устанавливает Ansible внутри VM и выполняет плейбук).
 
 ```bash
 Vagrant.configure("2") do |config|
