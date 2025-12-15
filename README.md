@@ -1,7 +1,15 @@
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ansible_Logo.png/480px-Ansible_Logo.png" alt="Ansible Logo" width="100">   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png" alt="Nginx Logo" width="150">
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td style="border: none; background: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ansible_Logo.png/480px-Ansible_Logo.png" alt="Ansible Logo" width="100">
+      </td>
+      <td style="border: none; background: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png" alt="Nginx Logo" width="150">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## ![Lesson](https://img.shields.io/badge/Lesson-otus__web-0A84FF?style=for-the-badge&logo=linux&logoColor=white&labelColor=111827)![Author](https://img.shields.io/badge/Author-Kamil%20Ibragimov-10B981?style=for-the-badge&logo=github&logoColor=white&labelColor=111827)![Date](https://img.shields.io/badge/Date-15.12.2025-F59E0B?style=for-the-badge&logo=calendar&logoColor=white&labelColor=111827)
 
