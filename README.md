@@ -38,7 +38,6 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "web-deploy"
   config.vm.network "private_network", ip: "192.168.56.20"
 
-  # Проброс портов
   config.vm.network "forwarded_port", guest: 8081, host: 8081
   config.vm.network "forwarded_port", guest: 8082, host: 8082
   config.vm.network "forwarded_port", guest: 8083, host: 8083
@@ -48,7 +47,6 @@ Vagrant.configure("2") do |config|
     vb.cpus = 1
   end
 
-  # Запуск Ansible
   config.vm.provision "ansible_local" do |ansible|
     ansible.playbook = "playbook.yml"
     ansible.install = true
